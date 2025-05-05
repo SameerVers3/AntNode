@@ -1,0 +1,34 @@
+name: Bug Report
+description: Create a report to help us improve
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Maintainer Contact**  
+        Sameer Ahmed (sameervers3@gmail.com)
+        
+        Before reporting, please check existing issues.
+  - type: textarea
+    attributes:
+      label: "Describe the bug"
+      description: "A clear and concise description of what the bug is."
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: "To Reproduce"
+      description: "Steps to reproduce the behavior"
+  - type: textarea
+    attributes:
+      label: "Expected behavior"
+      description: "A clear description of what you expected to happen."
+  - type: dropdown
+    attributes:
+      label: "Severity"
+      options:
+        - "Critical (data loss/crash)"
+        - "Major (broken functionality)"
+        - "Minor (cosmetic)"
+    validations:
+      required: true

@@ -1,0 +1,23 @@
+name: Documentation Issue
+description: Report documentation problems or suggest improvements
+labels: ["documentation"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Maintainer Contact**  
+        Sameer Ahmed (sameervers3@gmail.com)
+  - type: textarea
+    attributes:
+      label: "Describe the issue"
+      description: "What's wrong or missing in the documentation?"
+      validations:
+        required: true
+  - type: input
+    attributes:
+      label: "Document location"
+      description: "URL or file path where issue exists"
+  - type: textarea
+    attributes:
+      label: "Suggested improvement"
+      description: "How should this be documented?"

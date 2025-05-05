@@ -1,0 +1,28 @@
+name: Feature Request
+description: Suggest an idea for this project
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Maintainer Contact**  
+        Sameer Ahmed (sameervers3@gmail.com)
+  - type: textarea
+    attributes:
+      label: "Is your feature request related to a problem?"
+      description: "A clear description of what the problem is."
+  - type: textarea
+    attributes:
+      label: "Describe the solution you'd like"
+      description: "A clear description of what you want to happen."
+  - type: textarea
+    attributes:
+      label: "Describe alternatives you've considered"
+      description: "A clear description of any alternative solutions."
+  - type: dropdown
+    attributes:
+      label: "Priority"
+      options:
+        - "Critical"
+        - "Important"
+        - "Nice-to-have"
